@@ -28,7 +28,23 @@ body {
 	box-shadow:         3px 3px 5px 6px #ccc;
 }
 
+.contacts {
+	font-size: 600%;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+}
+
+span:hover{
+	color: red;
+	opacity: 1.0;
+}
+
 a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.nav{
 	display: inline-block;
 	text-decoration: none;
 	background-color: #000000;
@@ -52,6 +68,13 @@ h2 {
 	font-family: Arial;
 	font-size: 150%;
 	margin-bottom: 0px;
+}
+
+h3 {
+	font-family: Arial;
+	font-size: 100%;
+	margin-bottom: 0px;
+	text-decoration: bold;
 }
 
 p {
